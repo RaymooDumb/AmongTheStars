@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://c8sgf2nhv2q8i"
+path="res://.godot/imported/Was it worth it.ogg-d6b595d54ac54102351705fc0b0c02bc.oggvorbisstr"
+
+[deps]
+
+source_file="res://sound/Was it worth it.ogg"
+dest_files=["res://.godot/imported/Was it worth it.ogg-d6b595d54ac54102351705fc0b0c02bc.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

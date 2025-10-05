@@ -1,0 +1,54 @@
+[gd_scene load_steps=3 format=3 uid="uid://dem52ho7v7dxp"]
+
+[ext_resource type="Texture2D" uid="uid://bfg73cf2behtx" path="res://sprites/EspacioPorFavorYaNoMas.png" id="1_xej52"]
+[ext_resource type="PackedScene" uid="uid://bdpxcxg1q427r" path="res://scenes/character_body_2d.tscn" id="2_p73vr"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(2.011111, 2.011111)
+texture = ExtResource("1_xej52")
+
+[node name="Parallax2D" type="Parallax2D" parent="."]
+
+[node name="Sprite2D2" type="Sprite2D" parent="."]
+position = Vector2(0, -4344)
+scale = Vector2(2.011111, 2.011111)
+texture = ExtResource("1_xej52")
+
+[node name="Sprite2D3" type="Sprite2D" parent="."]
+position = Vector2(0, 4344)
+scale = Vector2(2.011111, 2.011111)
+texture = ExtResource("1_xej52")
+
+[node name="Sprite2D4" type="Sprite2D" parent="."]
+position = Vector2(7722.333, 0)
+scale = Vector2(2.011111, 2.011111)
+texture = ExtResource("1_xej52")
+
+[node name="Sprite2D5" type="Sprite2D" parent="."]
+position = Vector2(7722.333, -4344)
+scale = Vector2(2.011111, 2.011111)
+texture = ExtResource("1_xej52")
+
+[node name="Sprite2D6" type="Sprite2D" parent="."]
+position = Vector2(7722.333, 4344)
+scale = Vector2(2.011111, 2.011111)
+texture = ExtResource("1_xej52")
+
+[node name="Sprite2D7" type="Sprite2D" parent="."]
+position = Vector2(-7722.333, 0)
+scale = Vector2(2.011111, 2.011111)
+texture = ExtResource("1_xej52")
+
+[node name="Sprite2D8" type="Sprite2D" parent="."]
+position = Vector2(-7722.333, -4344)
+scale = Vector2(2.011111, 2.011111)
+texture = ExtResource("1_xej52")
+
+[node name="Sprite2D9" type="Sprite2D" parent="."]
+position = Vector2(-7722.333, 4344)
+scale = Vector2(2.011111, 2.011111)
+texture = ExtResource("1_xej52")
+
+[node name="CharacterBody2D" parent="." instance=ExtResource("2_p73vr")]
