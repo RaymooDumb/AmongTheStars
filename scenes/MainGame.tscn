@@ -9,8 +9,6 @@
 scale = Vector2(2.011111, 2.011111)
 texture = ExtResource("1_xej52")
 
-[node name="Parallax2D" type="Parallax2D" parent="."]
-
 [node name="Sprite2D2" type="Sprite2D" parent="."]
 position = Vector2(0, -4344)
 scale = Vector2(2.011111, 2.011111)
