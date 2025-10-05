@@ -34,6 +34,9 @@ func set_volume(volume: float):
 func _ready():
 	music_player = AudioStreamPlayer.new()
 	add_child(music_player)
-	
+	play_song("game")
 	#music_player.volume_db = +10.0
-	
+
+func process():
+	if(music_player.finished):
+		play_song("game")
